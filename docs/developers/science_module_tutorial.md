@@ -13,7 +13,7 @@ To make sure you are working in the correct environment, with exact version of d
 
 ```bash
 # 2.3GB compressed
-docker pull julienpeloton/fink-ci:latest
+docker pull julienpeloton/fink-ci-ztf:latest
 
 # Assuming you are in /path/to/fink-science
 docker run -t -i --rm -v \
