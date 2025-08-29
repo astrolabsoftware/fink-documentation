@@ -18,7 +18,7 @@ docker pull julienpeloton/fink-ci-ztf:latest
 
 # Assuming you are in /path/to/fink-filters
 docker run -t -i --rm -v \
-  $PWD:/home/libs/fink-filters \
+  $PWD:/home/libs/fink-filters \ # (1)!
   julienpeloton/fink-ci-ztf:latest bash
 ```
 
