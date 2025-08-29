@@ -12,7 +12,7 @@ First fork and clone the [fink-science](https://github.com/astrolabsoftware/fink
 To make sure you are working in the correct environment, with exact version of dependencies used by Fink, we recommend to use the Fink Docker image. Download the image and mount your version of fink-science in a container:
 
 ```bash
-# 2.3GB compressed
+# 3GB compressed
 docker pull julienpeloton/fink-ci-ztf:latest
 
 # Assuming you are in /path/to/fink-science
