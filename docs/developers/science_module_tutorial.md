@@ -29,6 +29,23 @@ The advantage of this method is that you have everything installed in it (Python
 pip uninstall -y fink-science
 ```
 
+and then install your version of `fink-science`:
+
+```bash
+cd /home/libs/fink-science
+pip install .
+```
+
+Keep in mind you need to re-install it each time you modify your code. Otherwise you can update the `PYTHONPATH` to point to it:
+
+```bash
+export PYTHONPATH=$PYTHONPATH:/home/libs/fink-science
+```
+
+!!! info "Mounted volume"
+    Note that since we invoke docker with `-v`, your local folder with `fink-science` is seen by both your host computer and the container. This means, any change done locally will be available in the container. Therefore you can use your favourite code editor from your computer, and only test the code within the docker (no need to code inside the docker).
+
+
 ## Science module design
 
 A module contains necessary routines and classes to process the alert data, and add values. A science module will typically contains two parts: the processor that contains the main routine called by Fink, and any other modules used by the processor:
@@ -76,6 +93,8 @@ def myprocessor(objectId: pd.Series, magpsf: pd.Series, anothercolumn: pd.Series
 
 
 A full example can be found at [https://github.com/astrolabsoftware/fink-science/tree/master/tutorial](https://github.com/astrolabsoftware/fink-science/tree/master/tutorial). In this simple example, we explore a simple science module that takes magnitude measurements contained in each alert, and computes the change in magnitude between the last two measurements. 
+
+### Using notebooks to design your module
 
 ## Science module test
 
