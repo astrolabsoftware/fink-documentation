@@ -10,7 +10,7 @@ You can contact us at contact(at)fink-broker.org for more information.
 
 - Julien Peloton (lead) - CNRS/IJCLab, IT department
 - Julius Hrivnac (database) - CNRS/IJCLab, IT department
-- Fabrice Jammes (Kubernetes) - CNRS/LPCA, IT department
+- Fabrice Jammes (Kubernetes) - CNRS/LPC, IT department
 - Marco Leoni (machine learning) - Université Paris-Saclay, IT department
 - Adrien Ramparison (cloud management, deployment, monitoring) - CNRS/IJCLab, IT department
 
@@ -52,22 +52,25 @@ You can contact us at contact(at)fink-broker.org for more information.
 #### Denmark
 
 * **DARK / UCPH**: A. Sedgewick
+* **DARK / Niels Bohr Institute**: C. Gall  
 
 #### France
 
 * **CEA/AIM, Université Paris-Saclay**: D. Turpin
 * **CEA/Irfu, Université Paris-Saclay**: F. Schüssler
-* **CNRS/APC, Université Paris-Diderot**: A. Coleiro
+* **CNRS/APC, Université Paris-Diderot**: A. Coleiro, Z. Lin
 * **CNRS/CC-IN2P3**: F. Hernandez
 * **CNRS/CDS, Observatoire Astronomique de Strasbourg, Université de Strasbourg**: A. Nebot Gomez-Moran
 * **CNRS/CPPM, Aix Marseille Université**: D. Fouchez
 * **CNRS/IJCLab, Université Paris-Saclay**: J. Biteau, J. E. Campagne, S. Dagoret, J. Hamo, R. Le Montagner, N. Leroy, M. Moniez, J. Neveu, B. Soullard  
-* **CNRS/IRAP, Université Paul Sabatier**: M.L. Lanza, N. Webb, H. Yang
+* **CNRS/IRAP, Université Paul Sabatier**: O. Godet, M.L. Lanza, N. Webb, H. Yang
 * **CNRS/LAM, Aix Marseille Université**: S. Blondin
 * **CNRS/LAPP, Université Grenoble-Alpes, Université Savoie Mont Blanc**: D. Boutigny
 * **CNRS/LPCA, Université Clermont Auvergne**: J. Cohen-Tanugi, E. Gangler
+* **CNRS/LPNHE,Sorbonne Université**: J.-P. Lenain  
 * **CNRS/LPSC, Université Grenoble-Alpes**: J. Bregeon, M. Masson
 * **CNRS/OCA, Lagrange, Université Côte d'Azur**: B. Carry, A. V. K. Sergeyev, O. Xenos
+* **Université Paris Cité**: G. G. Palacios
 
 #### Germany
 
@@ -86,6 +89,10 @@ You can contact us at contact(at)fink-broker.org for more information.
 * **INAF - Osservatorio Astronomico di Roma**: E. Brocato, S. Piranomonte  
 * **INFN**: G. Greco  
 * **University of Trieste**: F. Longo
+
+#### New Zealand
+
+* **University of Auckland**: P. Cowan
   
 #### Portugal
 
@@ -123,13 +130,15 @@ You can contact us at contact(at)fink-broker.org for more information.
 #### United Kingdom
 
 * **The Alan Turing Institute**: T. Allam Jr.
+* **Queen's University Belfast**: C. Angus
 * **University of Edinburgh**: R. Williams
 * **University of Hertfordshire**: R. S. de Souza
-* **Queen's University Belfast**: C. Angus
 * **University of Oxford**: H. Stevance
+* **University of Portsmouth**: A. S. de Murieta  
 
 #### USA
 
+* **Carnegie Mellon University**: A. Palmese
 * **IPAC**: E. Bachelet
 * **University of North Carolina at Chapel Hill**: H. Corbett
 
