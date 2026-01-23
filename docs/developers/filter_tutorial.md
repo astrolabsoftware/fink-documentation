@@ -14,7 +14,7 @@ To make sure you are working in the correct environment, with exact version of d
 
 ```bash
 # 2.3GB compressed
-docker pull julienpeloton/fink-ci-ztf:latest
+docker pull gitlab-registry.in2p3.fr/astrolabsoftware/fink/fink-deps-sentinel-ztf:latest
 
 # Assuming you are in /path/to/fink-filters
 docker run -t -i --rm -v \
