@@ -196,7 +196,7 @@ if __name__ == "__main__":
     # to fill
     myconfig = {
         'bootstrap.servers': '',
-        'group_id': ''
+        'group.id': ''
     }
 
     topics = ['', '']
